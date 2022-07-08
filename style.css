@@ -1,0 +1,84 @@
+body{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Source Code Pro', monospace;
+  margin: 0;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  background-color: #1F2937;
+  color: #F9FAF8;
+  width: auto;
+  height: 100px;
+  padding-top: 10px;
+  padding-left: 10%;
+}
+
+.logo{
+  font-size: 24px;
+  flex: 1;
+  font-weight: 700;
+}
+
+ul{
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  flex: 1.5;
+}
+
+a{
+  text-decoration: none;
+  color: #F9FAF8;
+  font-size: 18px;
+  word-spacing: -5px;
+  font-weight: 500;
+}
+
+.box-1{
+  display: flex;
+  background-color: #1F2937;
+  color: #F9FAF8;
+  justify-content: center;
+  align-self: center;
+  padding-left: 10%;
+  height: 400px;
+  gap: 16px;
+}
+
+.right,
+.left{
+  flex:1;
+}
+
+.left h1{
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.left p{
+  font-size: 18px;
+  color: #F9FAF8;
+  width: 80%;
+}
+
+.sign-up{
+  color: #F9FAF8;
+  background-color: #3882F6;
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  border: 2px solid #3882F6;
+}
+
+.sign-up:hover {
+  border: 2px solid #edeef0;
+  font-weight: bold;
+}
+
+
+.box-1 img{
+  height: 300px;
+}
