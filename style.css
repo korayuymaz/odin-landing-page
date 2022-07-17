@@ -38,12 +38,12 @@ a{
   color: #F9FAF8;
   justify-content: center;
   height: 400px;
+  gap: 16px;
 }
 
-.left {
-  width: 45%;
+.left{
+  flex-basis: 45%;
 }
-
 
 .left h1{
   font-size: 48px;
