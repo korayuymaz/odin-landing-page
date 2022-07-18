@@ -116,7 +116,7 @@ a{
   align-self: center;
 }
 
-.background{
+.wrapper-3{
   background-color: #e5e7eb;
 }
 
@@ -142,4 +142,44 @@ a{
   align-self: flex-end;
   font-weight: bolder;
   font-size: 20px;
+}
+
+.wrapper-4{
+  background-color: #FFFFFF;
+}
+
+.row-4{
+  width: 70%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.content-box{
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #3882F6;
+  color: #F9FAF8;
+}
+
+.sign-up-2{
+  font-weight: bold;
+  color: #F9FAF8;
+  background-color: #3882F6;
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  border: 2px solid #F9FAF8;
+}
+
+.sign-up-2:hover {
+  background-color: #F9FAF8;
+  color: #3882F6;
 }
